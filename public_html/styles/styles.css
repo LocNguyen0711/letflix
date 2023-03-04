@@ -317,10 +317,6 @@ body {
         width: 100%;
     }
 
-    .header.position-fixed {
-        position: relative !important;
-    }
-
     .detail .card-footer a,
     .slide .card-footer a,
     .content .trendding .card-footer a,
