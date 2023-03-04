@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Font Awesome -->
+    <link rel="StyleSheet" href="../icons/css/all.css">
+    <!-- My CSS -->
+    <link rel="StyleSheet" href="../styles/styles.css">
+    <!-- Link to Bootstrap CSS-->
+    <link rel="StyleSheet" href="../../bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Letflix</title>
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- Header -->
+    <div class="header position-fixed container-fluid">
+        <nav class="navbar navbar-expand-lg position-relative container">
+            <a class="navbar-brand logo" href="#">
+                LETFLIX
+            </a>
+            <button class="button navbar-toggler z-1" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" data-bs-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse list" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#trendding">Trendding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#popular">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Favourites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item d-flex position-relative user-icon">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                        <ul class="navbar-nav flex-column position-absolute top-100 user-item d-none z-2">
+                            <li class="nav-item">
+                                <a class="nav-link">Sign in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Register</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item position-absolute nav-link end-0">
+                        <form class="fSearch d-flex position-relative">
+                            <input class="form-control m-0 round-0" type="text" placeholder="Search"
+                                aria-label="Search">
+                            <div class="search-btn btn position-absolute end-0 h-100" type="submit"><i
+                                    class="fa fa-search"></i>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Filter -->
+    <!-- Slider -->
+    <!-- Container -->
+    <div class="content">
+        <div class="card bg-dark text-white position-relative detail">
+            <div class="bg-cover position-absolute top-0 start-0 w-100 h-100"></div>
+            <img src="https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/zGoZB4CboMzY1z4G3nU6BWnMDB2.jpg"
+                class="card-img box" alt="...">
+            <div class="row card-item card-img-overlay d-flex align-items-center">
+                <div class="col-4 h-100">
+                    <img class="card-img h-100"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6CznUC2l1sH02RWlHJosSVHWVTh.jpg">
+                </div>
+                <div class="col-8 info">
+                    <h5 class="card-title text-warning">Shotgun Wedding (2022)</h5>
+                    <p class="card-text">
+                        Action, Romance, Comedy
+                    </p>
+                    <p class="card-text --secondary-color">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        4/5 rates
+                    </p>
+                    <p class="card-text">
+                        <i>Return to Pandora.</i>
+                    </p>
+                    <p class="card-text">Darcy and Tom gather their families for the ultimate destination wedding but
+                        when the entire party is taken hostage, “’Til Death Do Us Part” takes on a whole new meaning in
+                        this hilarious, adrenaline-fueled adventure as Darcy and Tom must save their loved ones—if they
+                        don’t kill each other first.</p>
+                    <span class="card-text text-success">
+                        <p>Jason Moore</p>
+                        <p class="card-text p-0 m-0 text-secondary"><i>Director</i></p>
+                    </span>
+                    <div class="card-footer p-0">
+                        <a href="#" class="btn btn-primary">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div class="about">
+        <section id="about" class="py-5 text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-50">
+                        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5Udy89ttZtJ5cMC9y3o22zzyevg.jpg"
+                            alt="About Image" class="img-fluid rounded h-75">
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center flex-column">
+                        <h2 class="mb-4">LeftFlit</h2>
+                        <p class="lead mb-4"> is a streaming service that offers a wide variety of TV shows,
+                            movies, and documentaries. You can watch as much as you want, whenever you want without
+                            a single commercial – all for one low monthly price.</p>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada
+                            aliquam quam, vel porttitor lorem dictum a. Phasellus vitae orci euismod, consequat leo
+                            vitae, consequat sem. Vivamus quis imperdiet tortor. Integer a lectus ac enim convallis
+                            vehicula.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Contact -->
+    <div class="contact round-5 overflow-hidden">
+        <div class="container bg-dark">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form class="text-white">
+                        <h2 class="py-5">Contact us</h2>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light btn-lg w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5 class="mb-3">About Us</h5>
+                        <p>LeftFlit is a streaming service that offers a wide variety of TV shows, movies, and
+                            documentaries. You can watch as much as you want, whenever you want without a single
+                            commercial – all for one low monthly price.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="mb-3">Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">TV Shows</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="mb-3">Stay Connected</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fab fa-facebook fa-lg me-3"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-twitter fa-lg me-3"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram fa-lg me-3"></i>Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-secondary py-2">
+                <div class="container text-center">
+                    <p class="m-0">&copy; 2023 LeftFlit. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Link to Bootstrap JS-->
+    <script src="../../bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../scripts/scripts.js"></script>
+</body>
+
+</html>
